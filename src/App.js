@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -6,7 +7,11 @@ const Container = styled.div`
 `;
 
 const App = () => {
-  return <Container>Hello World!</Container>;
+  return (
+    <Container>
+      <Navbar />
+    </Container>
+  );
 };
 
 export default App;
