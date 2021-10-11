@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Woman from '../img/woman.jpeg';
+import Woman from '../img/woman.png';
 const Container = styled.div`
   height: calc(100vh - 50px);
   display: flex;
@@ -66,6 +66,7 @@ const Right = styled.div`
 
 const Image = styled.img`
   width: 100%;
+  height: 100%;
 `;
 
 const Intro = () => {
